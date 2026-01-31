@@ -1,1 +1,28 @@
-/target
+# Rust build artifacts
+/target/
+
+# Cargo
+Cargo.lock
+
+
+# Benchmarks & profiling
+/bench_results/
+/criterion/
+/perf.data
+perf.data.old
+
+# Logs & generated outputs
+*.log
+*.json
+/output/
+/reports/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
